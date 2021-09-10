@@ -1,0 +1,8 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource>
+        <file>icons/magnifyingglass.png</file>
+        <file>icons/download.png</file>
+        <file>icons/list-interface-symbol.png</file>
+    </qresource>
+</RCC>
