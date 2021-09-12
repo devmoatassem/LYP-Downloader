@@ -26,13 +26,13 @@ class MainApp(QMainWindow , ui):
     def BUtton_Hnadler(self):
         self.pushButton.clicked.connect(self.Download)
         self.pushButton_2.clicked.connect(self.Browse_Location)
-<<<<<<< Updated upstream
-=======
+
+
         ##Get video information in Single youtube video
         self.pushButton_7.clicked.connect(self.Video_data)
         self.pushButton_14.clicked.connect(self.Download_Video)
         self.pushButton_4.clicked.connect(self.Save_location_video)
->>>>>>> Stashed changes
+
         
     ##Calculate the progress
     def Progress_Handler(self,blocknum,blocksize,totalsize):
@@ -82,17 +82,8 @@ class MainApp(QMainWindow , ui):
         self.lineEdit.setText('')
         self.lineEdit_2.setText('')
         self.progressBar.setValue(0)
-         
-            
-         
-                
-<<<<<<< Updated upstream
-    ##Save Location in Line edit
-    def Save_location(self):
-        pass
+        
 
-
-=======
    
  
     #############################################
@@ -159,7 +150,7 @@ class MainApp(QMainWindow , ui):
              self.label.setText(str('{} minutes remaining'.format(remaining_time)))
              QApplication.processEvents()
         
->>>>>>> Stashed changes
+
 def main():
     app=QApplication(sys.argv)
     window=MainApp()
